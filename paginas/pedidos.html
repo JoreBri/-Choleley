@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choleley</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="../estilos/etilo.css">
+    <link rel="shortcut icon" href="../Choleley/img/logo.jpg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li class="menu__item "> <img src="../Choleley/img/logo.jpg" alt="logo"></a>
+                </li>
+                <li class="menu__item "> <a href="../index.html"> Inicio</a></li>
+                <li class="menu__item "> <a href="./contacto.html"> Contacto</a></li>
+                <li class="menu__item"> <a href="./mihistoria.html"> Mi Historia</a></li>
+                <li class="menu__item active"> <a href="./pedidos.html"> Pedidos</a></li>
+                <li class="menu__item"> <a href="./taller.html"> Taller</a></li>
+                <li class="menu__item"> <a href="./productos.html"> Productos</a></li>
+            </ul>
+    </nav>
+    </header>
+    <main>
+        <h1> Choleley creaciones con amor</h1>
+        <h2> Pedidos</h2>
+<section class="form">
+    <form id="formulario">
+        <label for="Nombre"> 
+            Nombre
+            <input type="text" id="Nombre" required placeholder="Ecribir aqui">
+        </label>
+        
+        <label for="Apellido"> 
+            Apellido
+            <input type="text" id="Apellido" required placeholder="Ecribir aqui">
+        </label>
+        
+        <label for="DNI"> 
+            DNI
+            <input type="number" id="DNI" required placeholder="Escribir aqui">
+        </label>   
+
+        <label for="Email"> 
+            Email
+            <input type="email" id="Email" required placeholder="Ecribir aqui">
+        </label>  
+        
+        <label for="mensaje"> 
+            Mensaje
+            <textarea class="textarea" id="Mensaje" cols="30" rows="10" placeholder="Descripcion del producto requerido, color y tipo de tela...."></textarea>
+        </label>
+        </form>
+
+    <h4> <p> Elegi el producto que necesitas </p></h4>
+    <div class="seleccion">
+        <label for="1"> 
+            <input type="radio" name="productos" id="1"> Cartuchera
+        </label>
+
+        <label for="1"> 
+            <input type="radio" name="productos" id="2">Gorro
+        </label> 
+
+        <label for="1"> 
+            <input type="radio" name="productos" id="2">Chau lata
+        </label>
+    </div>
+   
+    <form>
+        <input type="submit" value="Realizar pedidoo"/>
+
+        <input type="reset" value="Borrar"/>
+    </form>
+</section>
+        
+    </main>
+    <a class="irArriba" href="#">Ir arriba</a>
+
+    <footer> 
+        <h3> Choleley creaciones - todos los derechos reservados</h3>
+    </footer>
+</body>
+</html>
