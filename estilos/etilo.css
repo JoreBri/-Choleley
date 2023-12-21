@@ -11,11 +11,17 @@ body{
     background-color:  rgb(255, 229, 236);
 }
 /*abre menu*/
-.menu {
-    background-color: rgb(255, 229, 236);
-    padding-block: 5px;
+header{
+    display: flex;
     position: fixed;
     width: 100%;
+    background-color: rgb(255, 229, 236);
+    padding-block: 5px;
+   
+}
+.menu {
+    
+   
 }
 .menu__item {
     display: inline-block;
@@ -30,8 +36,8 @@ body{
     text-decoration: underline double;
     background-color: rgb(255, 163, 165);
 }
-.menu__item img{
-    width: 24px;
+.logo{
+    width: 50px;
 }
 
 
